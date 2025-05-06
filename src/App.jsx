@@ -8,6 +8,7 @@ import { CartProvider } from "./pages/CartContext";
 import { ToastContainer } from "react-toastify";
 import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
+import Home from "./pages/Home"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <ToastContainer position="top-right" />
           <Routes>
             <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
 
             <Route path="/about" element={<About />} />
             <Route path="/viewcart" element={<Cart />} />
