@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Cart from "./components/Cart";
-import { CartProvider } from "./pages/cartContext";
+import { CartProvider } from "./pages/CartContext";
 import { ToastContainer } from "react-toastify";
 import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
